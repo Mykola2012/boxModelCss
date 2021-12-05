@@ -35,3 +35,16 @@ h1 {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.description {
+    margin: 40px auto 0;
+    width: 880px;
+    text-align: center;
+}
+
+.boxDescription {
+    display: table-cell;
+    width: 40%;
+    box-sizing: border-box;
+    padding: 15px;
+}
