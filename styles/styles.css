@@ -48,3 +48,14 @@ h1 {
     box-sizing: border-box;
     padding: 15px;
 }
+
+.imgBox {
+    height: 300px;
+    width: 300px;
+}
+
+main {
+    margin: 40px auto 0;
+    width: 880px;
+    text-align: center;
+}
