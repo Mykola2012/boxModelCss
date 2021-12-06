@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+h3 {
+    margin: 0;
+}
+ 
 body {
     margin: 0;
 }
@@ -45,17 +53,35 @@ h1 {
 .boxDescription {
     display: table-cell;
     width: 40%;
-    box-sizing: border-box;
+    box-sizing: inherit;
     padding: 15px;
 }
 
 .imgBox {
-    height: 300px;
-    width: 300px;
+    height: 273px;
+    width: 273px;
 }
 
 main {
-    margin: 40px auto 0;
+    display: inline-block;
+    background: url(../img/backgruond/lawn.jpg) center center/cover no-repeat;
+    width: 100%;
+}
+
+.content {
+    margin: 0 auto;
     width: 880px;
     text-align: center;
 }
+
+.mainContent {
+    float: left;
+    width: 31%;
+    min-height: 600px;
+    box-sizing: inherit;
+    margin-top: 20px;
+    padding: 0 10px;
+    background:rgba(29, 28, 28, 0.438);
+    color: white;
+}
+
