@@ -45,7 +45,7 @@ h1 {
 }
 
 .description {
-    margin: 40px auto 0;
+    margin: 30px auto 0;
     width: 880px;
     text-align: center;
 }
@@ -67,6 +67,7 @@ main {
     display: inline-block;
     background: url(../img/backgruond/lawn.jpg) center center/cover no-repeat;
     width: 100%;
+    margin-top: 30px;
 }
 
 .content {
@@ -95,6 +96,7 @@ main {
 
 .keeping {
     text-align: center;
+    margin-top: 30px;
 }
 
 .foodBox {
@@ -109,4 +111,29 @@ main {
     width: 50%;
     padding: 20px 40px;
     background-color: rgba(202, 241, 60, 0.575);
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(12, 8, 8, 0.829);
+    min-height: 100px;
+    width: 100%;
+}
+
+.teacherBox {
+    display: inline-block;
+    width: 49%;
+    padding: 40px 0;
+}
+
+.stydentBox {
+    display: inline-block;
+    width: 49%;
+    padding: 40px 0;
+}
+
+.linkFooter {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
