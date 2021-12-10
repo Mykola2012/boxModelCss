@@ -73,14 +73,15 @@ main {
 }
 
 .imgBox {
-    height: 273px;
-    width: 273px;
+    height: 261px;
+    width: 261px;
     border-radius: 5px;
 }
 
 .mainContent {
-    float: left;
-    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+    width: 32%;
     min-height: 600px;
     box-sizing: border-box;
     margin: 20px 1px;
@@ -93,8 +94,7 @@ main {
 .title {
     font-size: 20px;
     font-weight: bold;
-    line-height: 45px;
-    display: block;
+    margin: 10px 0;
 }
 
 .advantage {
@@ -126,27 +126,13 @@ main {
 }
 
 footer {
-    text-align: center;
     background-color: rgba(12, 8, 8, 0.829);
-    min-height: 100px;
-    width: 100%;
-}
-
-.teacherBox {
-    display: inline-block;
-    width: 49%;
-    padding: 40px 0;
-}
-
-.stydentBox {
-    display: inline-block;
-    width: 49%;
-    padding: 40px 0;
 }
 
 .linkFooter {
     display: inline-block;
     text-decoration: none;
+    text-align: center;
     color: white;
     margin: 40px -1px;
     width: 50%;
