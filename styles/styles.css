@@ -39,8 +39,6 @@ h1 {
 }
 
 main {
-    display: inline-block;
-    width: 100%;
     margin-top: 30px;
 }
 
@@ -60,9 +58,7 @@ main {
 }
 
 .mainBlock {
-    display: inline-block;
     background: url(../img/backgruond/lawn.jpg) center center/cover no-repeat;
-    width: 100%;
     margin-top: 30px;
     text-align: center;
 }
@@ -105,9 +101,7 @@ main {
 
 .keeping {
     text-align: center;
-    width: 100%;
     margin-top: 30px;
-    display: inline-block;
 }
 
 .adviceBox {
